@@ -1,0 +1,22 @@
+#Document Commands
+!PRODUCT,PAM User Manual
+!VERSION,Beta 0.5
+!DOC_TYPE,
+!OUT_DIR,PAM/
+!VALID_PAGES,
+!VALID_TEXT,
+!TEMPLATE_COVER,required/htm/template_index_print.htm,index_print.htm
+
+#Documentation Generation
+!INCLUDE,required/intro_.txt,1
+!INCLUDE,overview_qs_.txt,1
+
+*,Equipment Guide,,equipment_.htm,,,
+
+*,Software Guide,,software_.htm,software_.js,,
+
+#*,Operations Guide,,operations_.htm,,,
+
+#*,Maintenance Guide,,maintenance_.htm,,,
+
+#*,Compatibility Guide,,compatibility_.htm,,,
