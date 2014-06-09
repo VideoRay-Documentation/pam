@@ -14,7 +14,7 @@ $,Gallery,links_gallery.html,required/htm/links_gallery.htm,../../required/javas
 
 #Document Commands
 !PRODUCT,PAM User Manual
-!VERSION,Beta 0.5
+!VERSION,Beta 0.6
 !DOC_TYPE,
 !OUT_DIR,PAM/
 !VALID_PAGES,
@@ -33,12 +33,6 @@ v***,Customize this Document,custom_my_notes.html,required/htm/custom_my_notes.h
 **,How to Get Help,how_to_get_help.html,required/htm/how_to_get_help.htm,,,
 #v**,VideoRay Library,nul,../../library/html/index.htm,,,
 *,Product Overview,,overview_.htm,overview.js,overview_sb.htm,overview.png
-**,Quick Start Instructions,,qs_.htm,qs_.js,qs_sb.htm,qs_.png
-***,Safety First,,qs_safety.htm,qs_safety.js,qs_safety_sb.htm,safety.png
-***,System Components,,qs_components.htm,qs_components.js,qs_components_sb.htm,qs_components.png
-***,Quick Setup,,qs_predive.htm,,,
-***,Dive Operations,,qs_dive.htm,qs_dive.js,qs_dive_sb.htm,qs_dive.png
-***,Removal and Care,,qs_postdive.htm,qs_postdive.js,qs_postdive_sb.htm,qs_postdive.png
 v**,Product FAQ,,overview_faq.htm,,overview_faq_sb.htm,../../required/images/overview_faq.png
 v**,Glossary / Index,,_glossary_view.htm,,,
 p**,Glossary,,_glossary_print.htm,,,

@@ -1,6 +1,6 @@
 #Document Commands
 !PRODUCT,PAM User Manual
-!VERSION,Beta 0.5
+!VERSION,Beta 0.6
 !DOC_TYPE,
 !OUT_DIR,PAM/
 !VALID_PAGES,
@@ -9,7 +9,7 @@
 
 #Documentation Generation
 !INCLUDE,required/intro_.txt,1
-!INCLUDE,overview_qs_.txt,1
+!INCLUDE,required/overview_.txt,1
 
 *,Equipment Guide,,equipment_.htm,,,
 

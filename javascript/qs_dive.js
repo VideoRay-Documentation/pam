@@ -1,16 +1,14 @@
-//videoray
+//VideoRay
 if(document.images){
 	base = new Image;
 	view = new Image;
-	diagh = new Image;
-	comms = new Image;
+	term = new Image;
 	
 	base.src = '../images/con_diag.png';
 	view.src = '../images/con_diag.png';
-	diagh.src = '../images/diag_s1.png';
-	comms.src = '../images/diag_s2.png';
+	term.src = '../images/con_diag_term.png';
 	
 	function reset(){
-		document.view.src =  base.src;
+		document.view.src = base.src;
 	}
 }

@@ -20,10 +20,14 @@ if (document.images)
    baset = new Image;
    viewt = new Image;
    term = new Image;
+   diagh = new Image;
+   comms = new Image;
    
-   baset.src = '../images/con_diag.png';
-   viewt.src = '../images/con_diag.png';
+   baset.src = '../images/con_view.png';
+   viewt.src = '../images/con_view.png';
    term.src = '../images/con_diag_term.png';
+   diagh.src = '../images/diag_s1.png';
+   comms.src = '../images/diag_s2.png';
    
    
    
@@ -31,7 +35,7 @@ if (document.images)
     {
 		document.view.src = base.src;
 	}
-	function reset_t()
+	function resett()
 	{
 		document.viewt.src = baset.src;
 	}
