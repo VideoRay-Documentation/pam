@@ -23,8 +23,8 @@ if (document.images)
    diagh = new Image;
    comms = new Image;
    
-   baset.src = '../images/con_view.png';
-   viewt.src = '../images/con_view.png';
+   baset.src = '../images/con_diag.png';
+   viewt.src = '../images/con_diag.png';
    term.src = '../images/con_diag_term.png';
    diagh.src = '../images/diag_s1.png';
    comms.src = '../images/diag_s2.png';
@@ -38,5 +38,18 @@ if (document.images)
 	function resett()
 	{
 		document.viewt.src = baset.src;
+	}
+	function plus_minus_swapper(shown, hidden) {
+       var s = document.getElementById(shown);
+       var h = document.getElementById(hidden);
+	   
+    if(s.style.display == 'inline') {
+                  s.style.display = 'none';
+                  h.style.display = 'inline';
+      }
+      else {
+                  s.style.display = 'inline';
+                  h.style.display = 'none';
+      }
 	}
 }
