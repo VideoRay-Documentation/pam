@@ -2,7 +2,7 @@
 !PRODUCT,PAM User Manual
 !VERSION,0.7
 !DOC_TYPE,
-!OUT_DIR,PAM/
+!OUT_DIR,pam/
 !VALID_PAGES,
 !VALID_TEXT,
 !TEMPLATE_COVER,required/htm/template_index_print.htm,index_print.htm

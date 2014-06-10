@@ -3,35 +3,35 @@
 device, and how to use Cockpit to access information about the PAM board and attached devices.</p>
 
 <h2>Device Configuration</h2>
-<p> <img src = "../../PAM/images/icon_note.gif"> Note that in most cases the factory will configure the PAM for costumer use, and users will not
+<p> <img src = "../../pam/images/icon_note.gif"> Note that in most cases the factory will configure the PAM for costumer use, and users will not
 need to follow these steps to configure their devices. If you do need to configure your device yourself,
 please continue.</p>
 
 <p>The baud rate and the choice of RS485 or RS232 can be configured using the vrDeviceConfiguration tool. 
 These settings are stored in EEPROM on the PAM.</p>
-<!--v--><p align = "center"><img src ="../../PAM/images/con_view.png" width = "550" height = "400" name = "view"><!--/v-->
+<!--v--><p align = "center"><img src ="../../pam/images/con_view.png" width = "550" height = "400" name = "view"><!--/v-->
 <ol>
 	
-	<li><!--v--><a href = "../../PAM/html/equipment_.html"><!--/v--> Connect the PAM to the ROV and power on everything.<!--p-->See the equipment section of this
+	<li><!--v--><a href = "../../pam/html/equipment_.html"><!--/v--> Connect the PAM to the ROV and power on everything.<!--p-->See the equipment section of this
 	manual for more information on how to correctly connect the PAM.<!--/p--><!--v--></a><!--/v--></li>
 	<li>In the VideoRay Cockpit installation directory there will be a file named vrDeviceConfiguration.exe. Double click it. (The default
-	cockpit installation directory is C:\Program Files(x86)\VideoRay\vrCockpit)<!--p--><br><p align = "center"><img src ="../../PAM/images/con_view.png" width = "550" height = "400" name = "view"><!--/p--></li>
+	cockpit installation directory is C:\Program Files(x86)\VideoRay\vrCockpit)<!--p--><br><p align = "center"><img src ="../../pam/images/con_view.png" width = "550" height = "400" name = "view"><!--/p--></li>
 	<li><!--v--><a name = "enumerate" onmouseover = "view.src=enumerate.src" onmouseout = "reset()"><!--/v--> The Device Configuration utility will open. 
-	Once you have verified the PAM is receiving power, click the "?" button to enumerate the PAM.<!--v--><img src="../../required/images/icon_hand.gif"></a><!--/v--><!--p--><br><p align = "center"><img src ="../../PAM/images/con_ques.png" width = "550" height = "400" name = "view"><!--/p--></li>
+	Once you have verified the PAM is receiving power, click the "?" button to enumerate the PAM.<!--v--><img src="../../required/images/icon_hand.gif"></a><!--/v--><!--p--><br><p align = "center"><img src ="../../pam/images/con_ques.png" width = "550" height = "400" name = "view"><!--/p--></li>
 	<li><!--v--><a name = "gid" onmouseover = "view.src=gid.src" onmouseout = "reset()"><!--/v--> The default setting for the 
 	PAM is a generic protocol adapter which should not
-	be changed. Click the "ID" button to identify the PAM as such.<!--v--><img src="../../required/images/icon_hand.gif"><!--/v--></a><!--p--><br><p align = "center"><img src ="../../PAM/images/con_id.png" width = "550" height = "400" name = "view"><!--/p--></li>
+	be changed. Click the "ID" button to identify the PAM as such.<!--v--><img src="../../required/images/icon_hand.gif"><!--/v--></a><!--p--><br><p align = "center"><img src ="../../pam/images/con_id.png" width = "550" height = "400" name = "view"><!--/p--></li>
 	<li><!--v--><a name = "rs485" onmouseover = "view.src=rs.src" onmouseout= "reset()"><!--/v-->To set the PAM to be RS485 capable, click the dropdown menu next to
-	"Device RS485" and select "Yes".<!--v--><img src="../../required/images/icon_hand.gif"></a><!--/v--><!--p--><p align = "center"><img src ="../../PAM/images/con_rs.png" width = "550" height = "400" name = "view"><!--/p--></li>
-	<li><!--v--><a name = "consav" onmouseover = "view.src=consav.src" onmouseout = "reset()"><!--/v-->Press the Save Button to save the Accessory Device file for cockpit to use.<!--v--><img src = "../../required/images/icon_hand.gif"></a><!--/v--><!--p--><p align = "center"><img src ="../../PAM/images/con_save.png" width = "550" height = "400" name = "view"><!--/p--></li>
-	<li><!--v--><a name = "condl" onmouseover = "view.src=condl.src" onmouseout = "reset()"><!--/v-->Click the download button.<!--v--><img src ="../../required/images/icon_hand.gif"></a><!--/v--><!--p--><p align = "center"><img src ="../../PAM/images/con_dl.png" width = "550" height = "400" name = "view"><!--/p--></li>
+	"Device RS485" and select "Yes".<!--v--><img src="../../required/images/icon_hand.gif"></a><!--/v--><!--p--><p align = "center"><img src ="../../pam/images/con_rs.png" width = "550" height = "400" name = "view"><!--/p--></li>
+	<li><!--v--><a name = "consav" onmouseover = "view.src=consav.src" onmouseout = "reset()"><!--/v-->Press the Save Button to save the Accessory Device file for cockpit to use.<!--v--><img src = "../../required/images/icon_hand.gif"></a><!--/v--><!--p--><p align = "center"><img src ="../../pam/images/con_save.png" width = "550" height = "400" name = "view"><!--/p--></li>
+	<li><!--v--><a name = "condl" onmouseover = "view.src=condl.src" onmouseout = "reset()"><!--/v-->Click the download button.<!--v--><img src ="../../required/images/icon_hand.gif"></a><!--/v--><!--p--><p align = "center"><img src ="../../pam/images/con_dl.png" width = "550" height = "400" name = "view"><!--/p--></li>
 	
 </ol>
 <h2>Cockpit Configuration</h2>
 <p>Cockpit requires an accessory device file to be installed to use PAM.</p>
 <p>The accessory device file informs Cockpit how to address the PAM(node id) as well as other parameters. If the accessory device file is
 not installed cockpit will not communicate with the PAM and thus communication with the connected device is impossible.</p>
-<p><img src ="../../PAM/images/icon_note.gif"> Accessory device files can be created using the vrDeviceConfiguration tool. However,
+<p><img src ="../../pam/images/icon_note.gif"> Accessory device files can be created using the vrDeviceConfiguration tool. However,
 a factory configured file is typically provided with the PAM.</p>
 <p> Any factory configured files provided must be installed into the C:\Users\VideoRay\AppData\Local\VideoRay\AccessoryDevices\ directory
 on the computer running cockpit. The accessory device file is an XML file with human readable file names.</p>
@@ -46,7 +46,7 @@ file is formatted as such:</p>
 <p>The PortName field designates which serial port will be used to relay the data.  
 This can be a real or virtual comm port.  The BaudRate field sets the baud rate of the Relay port.</p>
 <h2>Cockpit Diagnostics</h2>
-<p align = "center"><img src ="../../PAM/images/con_diag.png" width="550" height = "400" name = "viewt">
+<p align = "center"><img src ="../../pam/images/con_diag.png" width="550" height = "400" name = "viewt">
 <p>Our Cockpit software allows you to monitor the status of all connected PAM devices in realtime.</p>
 <ul>
 	<li><!--v--><a name = "maintenance" onmouseover = "viewt.src=diagh.src"

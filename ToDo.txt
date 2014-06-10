@@ -1,6 +1,2 @@
-New (and different) images for quickstart assembly and equipment guide
-New image for qs_.htm
-Rewrite removal and care (qs_postdive.htm)
 FAQ
-Change Overall Structure(accessories)
-Print Version(No JS structure, seperate images for viewing)
+Redraw Arrows

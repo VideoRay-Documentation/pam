@@ -14,9 +14,9 @@ $,Gallery,links_gallery.html,required/htm/links_gallery.htm,../../required/javas
 
 #Document Commands
 !PRODUCT,PAM User Manual
-!VERSION,Beta 0.6
+!VERSION,0.7
 !DOC_TYPE,
-!OUT_DIR,PAM/
+!OUT_DIR,pam/
 !VALID_PAGES,
 !VALID_TEXT,
 !TEMPLATE_COVER,required/htm/template_index_print.htm,index_print.htm
@@ -38,6 +38,9 @@ v**,Glossary / Index,,_glossary_view.htm,,,
 p**,Glossary,,_glossary_print.htm,,,
 
 *,Equipment Guide,,equipment_.htm,,,
+**,9-Pin Whip,,equipment_whip.htm,,,
+**,PAM Board,,equipment_board.htm,,,
+**,Connection,,equipment_connection.htm,,,
 
 *,Software Guide,,software_.htm,software_.js,,
 
