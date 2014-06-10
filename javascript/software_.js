@@ -39,17 +39,4 @@ if (document.images)
 	{
 		document.viewt.src = baset.src;
 	}
-	function plus_minus_swapper(shown, hidden) {
-       var s = document.getElementById(shown);
-       var h = document.getElementById(hidden);
-	   
-    if(s.style.display == 'inline') {
-                  s.style.display = 'none';
-                  h.style.display = 'inline';
-      }
-      else {
-                  s.style.display = 'inline';
-                  h.style.display = 'none';
-      }
-	}
 }

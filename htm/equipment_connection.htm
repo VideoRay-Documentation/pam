@@ -1,0 +1,90 @@
+<h1>Connecting Your Device</h1>
+<h2>ROV Connection</h2>
+<p align="center"><img src="../../pam/images/board_rov.png" width="400"></p>
+<table align = "center">
+	<tr>
+		<th>Arrow Color</th>
+		<th>Function</th>
+	<tr>
+		<td>Red</td>
+		<td>24V DC + (30 Watts)</td>
+	</tr>
+	<tr>
+		<td>Orange</td>
+		<td>Power Common (Ground)</td>
+	</tr>
+	<tr>
+		<td>Blue</td>
+		<td>RS-485 -/A</td>
+	</tr>
+	<tr>
+		<td>Grey</td>
+		<td>RS-485 +/B</td>
+	</tr>
+	<tr>
+		<td>Brown</td>
+		<td>12V DC + (30 Watts)</td>
+	</tr>
+</table><br>
+<p>Connect the the 9-pin whip to the ROV, and isolate the orange, red, gray, blue, and brown wires. Place the board with the pinOut side facing upwards. In this position, the pin numbers
+for the PAM board start at 1 in the upper right and increase towards the left. The diagram above also shows the function of each pin on the board in a color coded fashion. From this postition
+begin soldering the wires in the following manner:
+<ul>
+	<li>Connect the Orange ground wire to pin 5.</li>
+	<li>(Optional) If you are using 24V power, connect the Red 24V power wire to pin 3.</li>
+	<li>Connect the Gray RS485- wire to pin 7.</li>
+	<li>Connect the Blue RS485+ wire to pin 8.</li>
+	<li>Connect the Brown 12V power wire to pin 9.</li>
+</ul>
+<p>This is the typical attachment. For functions of the other wires stemming from the whip, please see this manuals <a href="../../pam/html/equipment_whip.html">
+section on the 9-pin whip.</a></p>
+<br>
+<img src="../../PAM/images/icon_note.gif">	If your device makes use of 24V pass through power, please remember to connect the red wire to pin 3.</p>
+	
+<h2>Device Connection</h2>
+<p align="center"><img src ="../../pam/images/board_output.png" width = "400"></p>
+<table align = "center">
+	<tr>
+		<th>Arrow Color</th>
+		<th>Function</th>
+	</tr>
+	<tr>
+		<td>Red</td>
+		<td>24V DC + (30 Watts)</td>
+	</tr>
+	<tr>
+		<td>Orange</td>
+		<td>Power Common (Ground)</td>
+	</tr>
+	<tr>
+		<td>Blue</td>
+		<td>RS-485 +/TX</td>
+	</tr>
+	<tr>
+		<td>Grey</td>
+		<td>RS-485 -/RX</td>
+	</tr>
+	<tr>
+		<td>Brown</td>
+		<td>12V DC + (30 Watts)</td>
+	</tr>
+</table><br>
+<p>After you have connected the 9-pin whip correctly, the next step is to connect the wires from your serial device to the PAM board. The PAM board uses the row of pins
+under the PinOUT set for the connection to serial devices. This is the PinIN side of the board. The following steps will successfully connect your device:</p>
+<ul>
+	<li>Identify which wires on your device are communications, power, and ground.</li>
+	<li>Connect your devices ground wire to pin 5.</li>
+	<li>(Optional)If you are using 24V power, connect your devices 24V power wire to pin 3.</li>
+	<li>Connect your devices communications pins.</li>
+		<ul>	
+			<li>If you are using an RS485 device, the connection order is reversed on this side. Connect your devices RS485+ wire to pin 7. Connect your devices
+			RS485- wire to pin 8.</li>
+			<li>If you are using an RS232 device, connect the TX wire of your device to pin 7. Connect the RX wire to pin 8. </li>
+		</ul>
+	<li>Connect your devices power.</li>
+		<ul>
+			<li>If you are connecting a 12V device, connect your power wire to pin 9.</li>
+			<li>If you are connecting a 24V device, connect your power wire to pin 3.</li>
+		</ul>
+</ul>
+<p>At this point your device should be successfully connected to the PAM. Proceed to set up the software to ensure that information is being received correctly.</p>

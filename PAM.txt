@@ -1,6 +1,6 @@
 #Document Commands
 !PRODUCT,PAM User Manual
-!VERSION,Beta 0.6
+!VERSION,0.7
 !DOC_TYPE,
 !OUT_DIR,PAM/
 !VALID_PAGES,
@@ -12,6 +12,9 @@
 !INCLUDE,required/overview_.txt,1
 
 *,Equipment Guide,,equipment_.htm,,,
+**,9-Pin Whip,,equipment_whip.htm,,,
+**,PAM Board,,equipment_board.htm,,,
+**,Connection,,equipment_connection.htm,,,
 
 *,Software Guide,,software_.htm,software_.js,,
 
