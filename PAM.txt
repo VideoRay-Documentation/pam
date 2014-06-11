@@ -3,6 +3,7 @@
 !VERSION,0.7
 !DOC_TYPE,
 !OUT_DIR,pam/
+!LANGUAGE_LINKS,toc
 !VALID_PAGES,
 !VALID_TEXT,
 !TEMPLATE_COVER,required/htm/template_index_print.htm,index_print.htm
