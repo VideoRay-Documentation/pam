@@ -1,6 +1,6 @@
 #Document Commands
 !PRODUCT,PAM User Manual
-!VERSION,0.7
+!VERSION,1.0rc1
 !DOC_TYPE,
 !OUT_DIR,pam/
 !LANGUAGE_LINKS,toc

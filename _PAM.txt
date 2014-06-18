@@ -14,7 +14,7 @@ $,Gallery,links_gallery.html,required/htm/links_gallery.htm,../../required/javas
 
 #Document Commands
 !PRODUCT,PAM User Manual
-!VERSION,0.7
+!VERSION,1.0rc1
 !DOC_TYPE,
 !OUT_DIR,pam/
 !LANGUAGE_LINKS,toc
@@ -34,6 +34,7 @@ v***,Customize this Document,custom_my_notes.html,required/htm/custom_my_notes.h
 **,How to Get Help,how_to_get_help.html,required/htm/how_to_get_help.htm,,,
 #v**,VideoRay Library,nul,../../library/html/index.htm,,,
 *,Product Overview,,overview_.htm,overview.js,overview_sb.htm,overview.png
+**,Requirements,,requirements_.htm,,,
 v**,Product FAQ,,overview_faq.htm,,overview_faq_sb.htm,../../required/images/overview_faq.png
 v**,Glossary / Index,,_glossary_view.htm,,,
 p**,Glossary,,_glossary_print.htm,,,
