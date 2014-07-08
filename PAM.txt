@@ -18,7 +18,7 @@
 **,Connection,,equipment_connection.htm,,,
 
 *,Software Guide,,software_.htm,software_.js,,
-
+**,Software Configuration,,software_config.htm,software_.js,,
 #*,Operations Guide,,operations_.htm,,,
 
 #*,Maintenance Guide,,maintenance_.htm,,,
