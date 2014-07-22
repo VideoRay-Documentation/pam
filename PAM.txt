@@ -19,6 +19,10 @@
 
 *,Software Guide,,software_.htm,software_.js,,
 **,Software Configuration,,software_config.htm,software_.js,,
+
+*,Appendix,,appendix.htm,,,
+**,Zoom Camera Example,nul,../../zcp/html/index.htm,,,
+
 #*,Operations Guide,,operations_.htm,,,
 
 #*,Maintenance Guide,,maintenance_.htm,,,
