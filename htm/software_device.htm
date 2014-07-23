@@ -25,33 +25,3 @@ one PAM at a time.</p>
 	<li><!--v--><a name = "condl" onmouseover = "view.src=condl.src" onmouseout = "reset()"><!--/v-->Click the download button.<!--v--><img src ="../../required/images/icon_hand.gif"></a><!--/v--><!--p--><p align = "center"><img src ="../../pam/images/con_dl.png" width = "550" height = "400" name = "view"><!--/p--></li>
 	
 </ol>
-<h2>Cockpit Configuration</h2>
-<p>Cockpit requires an accessory device file to be installed to use PAM.</p>
-<p>The accessory device file informs Cockpit how to address the PAM(node id) as well as other parameters. If the accessory device file is
-not installed cockpit will not communicate with the PAM and thus communication with the connected device is impossible.</p>
-<p><img src ="../../required/images/icon_note.gif"> Accessory device files can be created using the vrDeviceConfiguration tool. However,
-a factory configured file is typically provided with the PAM.</p>
-<p> Any factory configured files provided must be installed into the <span class="folder">C:\Users\VideoRay\AppData\Local\VideoRay\AccessoryDevices\</span> directory
-on the computer running cockpit. The accessory device file is an XML file with human readable file names.</p>
-<p>There are two fields which may require user modification, in which case a plain text editor such as notepad can be used. The
-file is formatted as such:</p>
-<pre>
-&lt;PortName&gt;
-	&lt;SimpleName&gt;<i><span class="folder">COM2</span></i>&lt;/SimpleName>
-	&lt;FriendlyName&gt;<i><span class="folder">COM2</span></i>&lt;/FriendlyName>
-&lt;/PortName&gt;
-&lt;BaudRate&gt;<i><span class="folder">600</span></i>&lt;/BaudRate&gt; </pre>
-<p>The PortName field designates which serial port will be used to relay the data.  
-This can be a real or virtual comm port.  The BaudRate field sets the baud rate of the Relay port.</p>
-<h2>Cockpit Diagnostics</h2>
-<p align = "center"><img src ="../../pam/images/con_diag.png" width="550" height = "400" name = "viewt">
-<p>Our Cockpit software allows you to monitor the status of all connected PAM devices in realtime.</p>
-<ul>
-	<li><!--v--><a name = "maintenance" onmouseover = "viewt.src=diagh.src"
-onmouseout = "resett()"><!--/v--> First click the Maintenance and Diagnostic button
-on the launch bar in Cockpit.<!--v--><img src="../../required/images/icon_hand.gif"></a><!--/v--></li> </ul>
-<!--p--><p align = "center"><img src = "../../pam/images/diag_s1.png" width = "550" height = "400"></p><!--/p-->
-	<ul><li><!--v--><a name "communications" onmouseover = "viewt.src=comms.src" onmouseout = "resett()"><!--/v-->From here press the show communications diagnostic window button on the service bay screen, and the
-screen above will appear, allowing you to view data on your attached PAM devices.<!--v--><img src="../../required/images/icon_hand.gif"></a><!--/v--></li></ul>
-
-<!--p--><p align = "center"><img src = "../../pam/images/diag_s2.png" width = "550" height = "400"></p><!--/p-->

@@ -14,7 +14,7 @@ $,Gallery,links_gallery.html,required/htm/links_gallery.htm,../../required/javas
 
 #Document Commands
 !PRODUCT,PAM User Manual
-!VERSION,1.0rc1
+!VERSION,1.0rc3
 !DOC_TYPE,
 !OUT_DIR,pam/
 !LANGUAGE_LINKS,toc
@@ -44,8 +44,14 @@ p**,Glossary,,_glossary_print.htm,,,
 **,PAM Board,,equipment_board.htm,,,
 **,Connection,,equipment_connection.htm,,,
 
-*,Software Guide,,software_.htm,software_.js,,
-**,Software Configuration,,software_config.htm,software_.js,,
+*,Software Guide,,software_.htm,,,
+**,Device Configuration,,software_device.htm,software_device.js,,
+**,Cockpit Configuration,,software_cockpit.htm,software_cockpit.js,,
+
+
+*,Appendix,,appendix.htm,,,
+**,Zoom Camera Example,nul,../../zcp/html/index.htm,,,
+
 #*,Operations Guide,,operations_.htm,,,
 
 #*,Maintenance Guide,,maintenance_.htm,,,
