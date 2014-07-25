@@ -7,23 +7,23 @@ case_control|word|description|  //* forces case sensitive,"  ~ separates variati
 |Accessory Device|A generic term used to refer to the multitude of devices that can interact with the PAM|
 |Accessory Device File|A configuration file that tells the PAM how to interact with a device|
 *|APIC|(Auxiliary Pair of Independent Conductors) Also called the Spare Pair (See AUX, AUX Port and Spare Pair)|
-|AUX |Circuit provided for accessories or custom applications (See APIC)|
+*|AUX |Circuit provided for accessories or custom applications (See APIC)|
 |AUX Port|Connector on the control panel that provides access to the AUX circuit (See APIC)|
 |Board|A circuit board, such as the PAM|
 |Cockpit|VideoRay ROV control program|
 |Developer|A producer of hardware or software|
 |Ground|A common return path for electricity, used to minimize damage in event of an unwanted discharge|
 |LED|A Light Emitting Diode, a low energy light source typically used to produce user feedback|
-|PAM|Generic Protocol Adapter Multiplexer, a programmable interface device|
-|PIN|Path for an electrical connection|
-|Pro4|VideoRay's most advanced ROV, capable of supporting PAM accessories|
+*|PAM|Generic Protocol Adapter Multiplexer, a programmable interface device|
+|Pin|Path for an electrical connection|
+|Pro 4|VideoRay's most advanced ROV, capable of supporting PAM accessories|
 |Remotely Operated Vehicle|The underwater vehicle|
-|ROV|See Remotely Operated Vehicle|
+*|ROV|See Remotely Operated Vehicle|
 |RS-485|Data protocol|
-|RX|Receiver Mode|
+*|RX|Receiver Mode|
 |Serial|The process of sending data one bit at a time|
 |Solder|Connecting electronics using a fusible metal alloy at high temperatures|
 |Spare Pair|Extra pair of conductors in the tether - See also APIC|
-|TX|Transmitter mode|
+*|TX|Transmitter mode|
 |vrDeviceConfiguration|A utility that can be used to generate accessory device files|
 
