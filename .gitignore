@@ -1,3 +1,7 @@
+_*
+htm/_*
+htm/temp/
+
 #################
 ## Eclipse
 #################
@@ -214,6 +218,3 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
-_*
-htm/_*
-htm/temp/
