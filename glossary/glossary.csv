@@ -26,4 +26,3 @@ case_control|word|description|  //* forces case sensitive,"  ~ separates variati
 |Spare Pair|Extra pair of conductors in the tether - See also APIC|
 *|TX|Transmitter mode|
 |vrDeviceConfiguration|A utility that can be used to generate accessory device files|
-

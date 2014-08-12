@@ -218,3 +218,9 @@ pip-log.txt
 #Mr Developer
 .mr.developer.cfg
 
+
+_*
+htm/_*
+html/
+My_Notes/
+htm/temp/
