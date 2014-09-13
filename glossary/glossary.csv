@@ -1,28 +1,29 @@
 case_control|word|description|  //* forces case sensitive,"  ~ separates variations of words ex: ""video ~video","~video."" will not match VideoRay"
-|12v|12 volts, a measure of electrical potential|
-|24v|24 volts. a measure of electrical potential|
-|9-Pin Whip|A piece of cable that plugs into the Pro4's accessory port and splits the pins into individual wires|
-|Accessory|An optional device that can be used with the VideoRay system to augment its features and capabilities|
-|Accessory Port|ROV connection for ROV mounted accessories that provides access to power and data circuits|
-|Accessory Device|A generic term used to refer to the multitude of devices that can interact with the PAM|
-|Accessory Device File|A configuration file that tells the PAM how to interact with a device|
-*|APIC|(Auxiliary Pair of Independent Conductors) Also called the Spare Pair (See AUX, AUX Port and Spare Pair)|
-*|AUX |Circuit provided for accessories or custom applications (See APIC)|
-|AUX Port|Connector on the control panel that provides access to the AUX circuit (See APIC)|
-|Board|A circuit board, such as the PAM|
-|Cockpit|VideoRay ROV control program|
-|Developer|A producer of hardware or software|
-|Ground|A common return path for electricity, used to minimize damage in event of an unwanted discharge|
-|LED|A Light Emitting Diode, a low energy light source typically used to produce user feedback|
-*|PAM|Generic Protocol Adapter Multiplexer, a programmable interface device|
-|Pin|Path for an electrical connection|
-|Pro 4|VideoRay's most advanced ROV, capable of supporting PAM accessories|
-|Remotely Operated Vehicle|The underwater vehicle|
-*|ROV|See Remotely Operated Vehicle|
-|RS-485|Data protocol|
-*|RX|Receiver Mode|
-|Serial|The process of sending data one bit at a time|
-|Solder|Connecting electronics using a fusible metal alloy at high temperatures|
-|Spare Pair|Extra pair of conductors in the tether - See also APIC|
-*|TX|Transmitter mode|
-|vrDeviceConfiguration|A utility that can be used to generate accessory device files|
+|12 V DC|12 volts Direct Current, a measure of electrical potential.|
+|24 V DC|24 volts Direct Current. a measure of electrical potential.|
+|9-Pin Whip|A piece of cable that plugs into the Pro 4's accessory port and splits the pins into individual wires.|
+|Accessory|An optional device that can be used with the VideoRay system to augment its features and capabilities.|
+|Accessory Port|ROV connection for ROV mounted accessories that provides access to power and data circuits.|
+|Accessory Device|A generic term used to refer to the multitude of devices that can interact with the PAM.|
+|Accessory Device Configuration File|A configuration file that tells the PAM how to interact with a device.|
+*|APIC|(Auxiliary Pair of Independent Conductors) Also called the Spare Pair (See AUX, AUX Port and Spare Pair).|
+*|AUX |Circuit provided for accessories or custom applications (See APIC).|
+|AUX Port|Connector on the control panel that provides access to the AUX circuit (See APIC).|
+|Board|A circuit board, such as the PAM.|
+|Developer|A producer of hardware or software.|
+|Ground|A common return path for electricity.|
+|LED|A Light Emitting Diode, a low energy light source typically used to produce user feedback.|
+*|PAM|Generic Protocol Adapter Multiplexer, a programmable interface device.|
+|Pin|Path for an electrical connection.|
+|Pro 4|VideoRay's most advanced ROV, capable of supporting PAM accessories.|
+|Remotely Operated Vehicle|The underwater vehicle.|
+*|ROV|See Remotely Operated Vehicle.|
+|RS-232|A data protocol.|
+|RS-485|A Data protocol.|
+*|RX|Receive mode.|
+|Serial|The process of sending data one bit at a time.|
+|Solder|Connecting electronics using a fusible metal alloy at high temperatures.|
+|Spare Pair|Extra pair of conductors in the tether - See also APIC.|
+*|TX|Transmit mode.|
+|VideoRay Cockpit|VideoRay ROV control program.|
+|vrDeviceConfiguration|A utility that can be used to generate accessory device files.|
